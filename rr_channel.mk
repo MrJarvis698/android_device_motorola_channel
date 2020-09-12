@@ -33,7 +33,7 @@ PRODUCT_MODEL := moto g(7) play
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=channel \
-        PRIVATE_BUILD_DESC="channel-user 9 PPY29.148-140 687ae release-keys"
+        PRIVATE_BUILD_DESC="channel-user 10 QPYS30.52-22-5 421e1 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := motorola/channel_retail/channel:9/PPY29.148-140/687ae:user/release-keys
+BUILD_FINGERPRINT := motorola/channel/channel:10/QPYS30.52-22-5/421e1:user/release-keys
