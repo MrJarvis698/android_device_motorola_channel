@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_channel.mk
+    $(LOCAL_DIR)/aosp_channel.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_channel-eng \
-    aosip_channel-user \
-    aosip_channel-userdebug
+    aosp_channel-eng \
+    aosp_channel-user \
+    aosp_channel-userdebug
