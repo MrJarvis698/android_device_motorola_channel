@@ -28,9 +28,8 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Use GApps
 TARGET_GAPPS_ARCH := arm64
 
-# Bootanimation RES 
-TARGET_SCREEN_HEIGHT := 1512
-TARGET_SCREEN_WIDTH := 720
+# Bootanimation RES
+TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel
