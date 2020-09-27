@@ -32,6 +32,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotCamera2
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
