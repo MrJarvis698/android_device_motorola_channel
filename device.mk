@@ -24,6 +24,9 @@ $(call inherit-product-if-exists, vendor/motorola/channel/channel-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Moto Camera 2
 PRODUCT_PACKAGES += \
     MotCamera2
