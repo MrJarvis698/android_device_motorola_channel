@@ -9,15 +9,15 @@
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# WITHOUT WAduANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_channel.mk
+    $(LOCAL_DIR)/du_channel.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_channel-eng \
-    rr_channel-user \
-    rr_channel-userdebug
+    du_channel-eng \
+    du_channel-user \
+    du_channel-userdebug

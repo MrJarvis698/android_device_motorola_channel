@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common RR stuff
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit from channel device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := channel
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := rr_channel
+PRODUCT_NAME := du_channel
 PRODUCT_MODEL := moto g(7) play
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -37,6 +37,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/channel/channel:10/QPYS30.52-22-5/421e1:user/release-keys
-
-# RROS
-RR_BUILDTYPE=Official
